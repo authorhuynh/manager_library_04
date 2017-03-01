@@ -29,3 +29,22 @@ en:
         title: "About"
         header: "About"
         content: "This is about page !"
+    users:
+      private:
+        logged_in_user: "Please log in."
+      show:
+        admin: "Admin"
+        member: "Member"
+      new:
+        title: "Sign up"
+        header: "Sign up"
+        btn_create: "Create my account"
+      create:
+        success_msg: "Welcome to the Ecommerce app!"
+      edit:
+        title: "Edit infomation"
+        header: "Edit infomation"
+        btn_edit: "Update"
+        found_error: "Can't found user"
+      update:
+        success_msg: "Update successful"
