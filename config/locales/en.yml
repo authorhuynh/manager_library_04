@@ -10,6 +10,11 @@ en:
         home: "Home"
         login: "Log in"
         help: "Help"
+        account: "Account"
+        users: "Users"
+        profile: "Profile"
+        settings: "Settings"
+        logout: "Log out"
       footer:
         about: "About"
         contact: "Contact"
@@ -29,3 +34,24 @@ en:
         title: "About"
         header: "About"
         content: "This is about page !"
+    users:
+      new:
+        title: "Sign up"
+        header: "Sign up"
+        btn_create: "Create my account"
+        msg_success: "Create account successful"
+      show:
+        error_user: "Can't found user"
+    sessions:
+      new:
+        title: "Log in"
+        header: "Log in"
+        new_user: "Don't have an account?"
+        signup_now: "Sign up now!"
+        btn_login: "Log in"
+        msg_errors: "Invalid email/password combination"
+        msg_success: "Log in successful"
+        remember: "Remember me on this computer"
+    shared:
+      errors:
+        form_contains: "The form contains"
