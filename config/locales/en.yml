@@ -42,6 +42,20 @@ en:
         msg_success: "Create account successful"
       show:
         error_user: "Can't found user"
+        msg_update: "Profile updated"
+        msg_error: "Update failed"
+      edit:
+        title: "Update profile"
+        header: "Update profile"
+        btn_update: "Save changes"
+        change: "change"
+      index:
+        title: "All users"
+        header: "All users"
+        msg_delete: "User deleted"
+        msg_error: "Delete failed"
+        btn_delete: "delete"
+        msg_confirm: "Are you sure ?"
     sessions:
       new:
         title: "Log in"
@@ -51,6 +65,7 @@ en:
         btn_login: "Log in"
         msg_errors: "Invalid email/password combination"
         msg_success: "Log in successful"
+        msg_login: "Please log in."
         remember: "Remember me on this computer"
     shared:
       errors:

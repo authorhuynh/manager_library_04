@@ -9,7 +9,7 @@ class SessionsController < ApplicationController
       flash[:success] = t "view.sessions.new.msg_success"
       log_in user
       params[:session][:remember_me] == Settings.number_one ? remember(user) : forget(user)
-      redirect_to user
+      redirect_back_or user
     else
       flash.now[:danger] = t "view.sessions.new.msg_errors"
       render :new

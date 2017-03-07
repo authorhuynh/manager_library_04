@@ -7,7 +7,7 @@ class CreateUsers < ActiveRecord::Migration[5.0]
       t.string :remember_digest
       t.string :phone
       t.string :address
-      t.boolean :is_admin
+      t.boolean :is_admin, default: false
       t.timestamps
     end
   end
